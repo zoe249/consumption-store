@@ -1,0 +1,937 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/startUp/index/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/startUp/register/register",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/startUp/login/login",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "subpackages": [
+    {
+      "root": "store",
+      "pages": [
+        {
+          "path": "editProduct/editProduct",
+          "style": {
+            "navigationBarTitleText": "修改商品",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "goods/detail",
+          "style": {
+            "navigationBarTitleText": "商品详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "bakeFresh/bakeFresh",
+          "style": {
+            "navigationBarTitleText": "新鲜出炉",
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "newProduct/newProduct",
+          "style": {
+            "navigationBarTitleText": "创建商品",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "updateName/updateName",
+          "style": {
+            "navigationBarTitleText": "修改名称",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "clientInfo/clientInfo",
+          "style": {
+            "navigationBarTitleText": "客户信息",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "clientDetali/clientDetali",
+          "style": {
+            "navigationBarTitleText": "客户详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "client/client",
+          "style": {
+            "navigationBarTitleText": "客户管理",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "dailyMenu/dailyMenu",
+          "style": {
+            "navigationBarTitleText": "每日菜单",
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "redPackage/redPackage",
+          "style": {
+            "navigationBarTitleText": "群红包",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "staff/staff",
+          "style": {
+            "navigationBarTitleText": "员工管理",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "goods/goods",
+          "style": {
+            "navigationBarTitleText": "商品库",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "setup/setup",
+          "style": {
+            "navigationBarTitleText": "设置",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "storeInformation/storeInformation",
+          "style": {
+            "navigationBarTitleText": "店铺信息",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "updateAddress/updateAddress",
+          "style": {
+            "navigationBarTitleText": "修改店铺地址",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "updatePhone/updatePhone",
+          "style": {
+            "navigationBarTitleText": "修改联系电话",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "updateSign/updateSign",
+          "style": {
+            "navigationBarTitleText": "店铺形象",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "updateWeChatQRCode/updateWeChatQRCode",
+          "style": {
+            "navigationBarTitleText": "店主二维码",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "updateTime/updateTime",
+          "style": {
+            "navigationBarTitleText": "营业时间",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "storeHomepage/storeHomepage",
+          "style": {
+            "navigationBarTitleText": "店铺主页",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "addStore/addStore",
+          "style": {
+            "navigationBarTitleText": "创建店铺",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "storeList/storeList",
+          "style": {
+            "navigationBarTitleText": "我的店铺",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "manage/manage",
+          "style": {
+            "navigationBarTitleText": "管理端",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "payQrcode/payQrcode",
+          "style": {
+            "navigationBarTitleText": "店铺收款码",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/list",
+          "style": {
+            "navigationBarTitleText": "订单管理",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "manage/storeList",
+          "style": {
+            "navigationBarTitleText": "店铺列表",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "manage/managerList",
+          "style": {
+            "navigationBarTitleText": "系统管理员",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "deliverySet/deliverySet",
+          "style": {
+            "navigationBarTitleText": "配送设置",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "publicity/publicity",
+          "style": {
+            "navigationBarTitleText": "店铺宣传",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "basicInfo/basicInfo",
+          "style": {
+            "navigationBarTitleText": "基本信息设置",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "publicity/storeList",
+          "style": {
+            "navigationBarTitleText": "宣传管理",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "publicity/homePic",
+          "style": {
+            "navigationBarTitleText": "首页宣传图",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "publicity/businessCard",
+          "style": {
+            "navigationBarTitleText": "店铺名片",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "publicity/delivery",
+          "style": {
+            "navigationBarTitleText": "送货到家",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "publicity/pickUp",
+          "style": {
+            "navigationBarTitleText": "预定自提",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "publicity/menu",
+          "style": {
+            "navigationBarTitleText": "明日菜单",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "business/data",
+          "style": {
+            "navigationBarTitleText": "经营数据（实时）",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "charge/account",
+          "style": {
+            "navigationBarTitleText": "账本",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "charge/stream",
+          "style": {
+            "navigationBarTitleText": "流水",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "charge/record",
+          "style": {
+            "navigationBarTitleText": "记一笔",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "recipe/add",
+          "style": {
+            "navigationBarTitleText": "配方创建",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "recipe/ingredient",
+          "style": {
+            "navigationBarTitleText": "食材添加",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "recipe/recipe",
+          "style": {
+            "navigationBarTitleText": "准备阶段",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "recipe/list",
+          "style": {
+            "navigationBarTitleText": "配方",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "recipe/selectElement",
+          "style": {
+            "navigationBarTitleText": "原料选择",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "recipe/detail",
+          "style": {
+            "navigationBarTitleText": "配方详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "recipe/edit",
+          "style": {
+            "navigationBarTitleText": "配方编辑",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "element/list",
+          "style": {
+            "navigationBarTitleText": "原料",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "element/edit",
+          "style": {
+            "navigationBarTitleText": "新价格",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "element/detail",
+          "style": {
+            "navigationBarTitleText": "原料详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "supplier/list",
+          "style": {
+            "navigationBarTitleText": "供货商",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "supplier/detail",
+          "style": {
+            "navigationBarTitleText": "供货商详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "stock/list",
+          "style": {
+            "navigationBarTitleText": "存货",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "stock/detail",
+          "style": {
+            "navigationBarTitleText": "存货详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "cookbook/list",
+          "style": {
+            "navigationBarTitleText": "食谱",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "cookbook/add",
+          "style": {
+            "navigationBarTitleText": "食谱创建",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "cookbook/detail",
+          "style": {
+            "navigationBarTitleText": "食谱详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "settled/list",
+          "style": {
+            "navigationBarTitleText": "店铺入驻申请",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "settled/detail",
+          "style": {
+            "navigationBarTitleText": "材料审核",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "settled/tip",
+          "style": {
+            "navigationBarTitleText": "店铺入驻",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "settled/add",
+          "style": {
+            "navigationBarTitleText": "店铺入驻",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "settled/edit",
+          "style": {
+            "navigationBarTitleText": "材料修改",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "settled/verifyPhone",
+          "style": {
+            "navigationBarTitleText": "验证手机号",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "settled/addStore",
+          "style": {
+            "navigationBarTitleText": "创建店铺",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "reserve/reserve",
+          "style": {
+            "navigationBarTitleText": "明日预定",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/confirm",
+          "style": {
+            "navigationBarTitleText": "订单确认",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "order/tip",
+          "style": {
+            "navigationBarTitleText": "订单确认",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "goods/sort",
+          "style": {
+            "navigationBarTitleText": "商品排序",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "setup/qrcode",
+          "style": {
+            "navigationBarTitleText": "店铺小程序码",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "custom",
+      "pages": [
+        {
+          "path": "fresh/fresh",
+          "style": {
+            "navigationBarTitleText": "新鲜出炉",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "home/index/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "storehome/index/index",
+          "style": {
+            "navigationBarTitleText": "店铺形象",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "goods/index/index",
+          "style": {
+            "navigationBarTitleText": "人气榜",
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "storehome/map/map",
+          "style": {
+            "navigationBarTitleText": "店铺位置",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "goods/detail/detail",
+          "style": {
+            "navigationBarTitleText": "商品详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "dailyMenu/dailyMenu",
+          "style": {
+            "navigationBarTitleText": "每日菜单",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "chooseStore/chooseStore",
+          "style": {
+            "navigationBarTitleText": "浏览店铺",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "test/test",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/submitOrder",
+          "style": {
+            "navigationBarTitleText": "提交订单",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "order/list",
+          "style": {
+            "navigationBarTitleText": "我的订单",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "address/address",
+          "style": {
+            "navigationBarTitleText": "地址编辑",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/paySucc",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/waitPay",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "search/search",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "navigation/navigation",
+          "style": {
+            "navigationBarTitleText": "店铺导航",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "set/set",
+          "style": {
+            "navigationBarTitleText": "设置",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "set/feedback",
+          "style": {
+            "navigationBarTitleText": "产品反馈",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "set/about",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "set/agreement",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "trend/trend",
+          "style": {
+            "navigationBarTitleText": "悦小圈",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "comment/comment",
+          "style": {
+            "navigationBarTitleText": "Ta说",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "address/choose",
+          "style": {
+            "navigationBarTitleText": "切换地址",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "set/personalData",
+          "style": {
+            "navigationBarTitleText": "个人资料",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "set/logout",
+          "style": {
+            "navigationBarTitleText": "注销账号",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/detail",
+          "style": {
+            "navigationBarTitleText": "订单详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "business/license",
+          "style": {
+            "navigationBarTitleText": "商家营业资质",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/tip",
+          "style": {
+            "navigationBarTitleText": "订单确认",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "activity",
+      "pages": [
+        {
+          "path": "addActivity/addActivity",
+          "style": {
+            "navigationBarTitleText": "游戏内容",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "storeList/storeList",
+          "style": {
+            "navigationBarTitleText": "浏览店铺",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "activityList/activityList",
+          "style": {
+            "navigationBarTitleText": "活动列表",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "selectGoods/selectGoods",
+          "style": {
+            "navigationBarTitleText": "商品选择（所有宝贝）",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "verification/verification",
+          "style": {
+            "navigationBarTitleText": "兑换核销",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "qualificationCheck/qualificationCheck",
+          "style": {
+            "navigationBarTitleText": "抽卡资格校验",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "myActivity/myActivity",
+          "style": {
+            "navigationBarTitleText": "我的活动",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "selectExchange/selectExchange",
+          "style": {
+            "navigationBarTitleText": "商品兑换",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "exchange/exchange",
+          "style": {
+            "navigationBarTitleText": "商品兑换",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "rule/rule",
+          "style": {
+            "navigationBarTitleText": "兑换规则",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "manage/list",
+          "style": {
+            "navigationBarTitleText": "活动管理",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "manage/detail",
+          "style": {
+            "navigationBarTitleText": "活动详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "qualificationCheck/order",
+          "style": {
+            "navigationBarTitleText": "订单信息确认",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "cardList/cardList",
+          "style": {
+            "navigationBarTitleText": "集卡",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "drawCard/drawCard",
+          "style": {
+            "navigationBarTitleText": "抽卡",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "cardList/detail",
+          "style": {
+            "navigationBarTitleText": "集卡明细",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "detail/detail",
+          "style": {
+            "navigationBarTitleText": "集卡",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "delivery",
+      "pages": [
+        {
+          "path": "manage/list",
+          "style": {
+            "navigationBarTitleText": "送货管理",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "redEnvelope",
+      "pages": [
+        {
+          "path": "consume/redPacket",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "detail/detail",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "addPacket/custome",
+          "style": {
+            "navigationBarTitleText": "新客红包",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "addPacket/luck",
+          "style": {
+            "navigationBarTitleText": "拼手气红包",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "list/storeList",
+          "style": {
+            "navigationBarTitleText": "消费红包",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "list/packet",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "list/detail",
+          "style": {
+            "navigationBarTitleText": "明细",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "receive/receive",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  }
+}
